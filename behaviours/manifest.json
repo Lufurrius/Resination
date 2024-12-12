@@ -1,0 +1,68 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Resination",
+    "description": "Add-On based around the Pale Garden and Resin, made for BAO's 20K jam!",
+    "uuid": "345924d7-62ee-40bf-82e2-7741989b636d",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "uuid": "0c856b83-b9a3-48e5-b4a2-c0b56009f1cd",
+      "type": "data"
+    },
+    {
+      "description": "Scripts",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "e37c5144-7f71-46f9-8636-108395ed999d",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f80ad180-1b96-4570-9072-9ac0e353115c",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": [
+        1,
+        16,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": [
+        1,
+        3,
+        0
+      ]
+    }
+  ]
+}
