@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run my batch file",
+			"type": "shell",
+			"command": "C:/Users/lutho/Documents/GitHub/Resination/sync_silent.vbs",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"windows": {
+				"command": "C:/Users/lutho/Documents/GitHub/Resination/sync_silent.vbs"
+			}
+		}
+	]
+}
