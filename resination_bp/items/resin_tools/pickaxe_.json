@@ -1,0 +1,58 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "luth_resination:resin_pickaxe",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.pickaxe"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luth_resination:resin_pickaxe",
+                    "dyed": "luth_resination:resin_pickaxe_gray"
+                }
+            },
+            "minecraft:dyeable": {},
+            "minecraft:hand_equipped": true,
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:transformable_items",
+                    "minecraft:is_tool",
+                    "minecraft:digger",
+                    "minecraft:is_pickaxe",
+                    "minecraft:diamond_tier",
+                    "luth_resination:resinous"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:stacked_by_data": true,
+            "minecraft:durability": {
+                "max_durability": 128
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:resin_clump"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    },
+                    {
+                        "items": [
+                            "minecraft:resin_brick"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    }
+                ]
+            },
+            "minecraft:damage": 5,
+            "minecraft:enchantable": {
+                "slot": "pickaxe",
+                "value": 17
+            }
+        }
+    }
+}

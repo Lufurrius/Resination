@@ -1,0 +1,209 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "luth_resination:resin_shovel_cracked",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.shovel"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luth_resination:resin_shovel_cracked",
+                    "dyed": "luth_resination:resin_shovel_cracked_gray"
+                }
+            },
+            "minecraft:dyeable": {},
+            "minecraft:hand_equipped": true,
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:transformable_items",
+                    "minecraft:is_tool",
+                    "minecraft:digger",
+                    "minecraft:is_shovel",
+                    "minecraft:diamond_tier",
+                    "luth_resination:resinous"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:stacked_by_data": true,
+            "minecraft:durability": {
+                "max_durability": 128
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:resin_clump"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    },
+                    {
+                        "items": [
+                            "minecraft:resin_brick"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    }
+                ]
+            },
+            "minecraft:damage": 2,
+            "minecraft:enchantable": {
+                "slot": "shovel",
+                "value": 17
+            },
+            "minecraft:digger": {
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow', 'shovel_diggable')"
+                        },
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:black_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:blue_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:brown_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:clay",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:cyan_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:dirt_with_roots",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:dirt",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:farmland",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:grass_path",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:grass",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:gravel",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:gray_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:green_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:light_blue_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:light_gray_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:lime_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:magenta_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:mud",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:muddy_mangrove_roots",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:mycelium",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:orange_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:pink_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:podzol",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:purple_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:red_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:sand",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:snow_layer",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:snow",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:soul_sand",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:soul_soil",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:suspicious_gravel",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:suspicious_sand",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:white_concrete_powder",
+                        "speed": 5
+                    },
+                    {
+                        "block": "minecraft:yellow_concrete_powder",
+                        "speed": 5
+                    }
+                ],
+                "use_efficiency": true
+            }
+        }
+    }
+}

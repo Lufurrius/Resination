@@ -1,0 +1,77 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "luth_resination:resin_sword",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luth_resination:resin_sword",
+                    "dyed": "luth_resination:resin_sword_gray"
+                }
+            },
+            "minecraft:dyeable": {},
+            "minecraft:hand_equipped": true,
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:transformable_items",
+                    "minecraft:is_tool",
+                    "minecraft:digger",
+                    "minecraft:is_sword",
+                    "minecraft:diamond_tier",
+                    "luth_resination:resinous"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:stacked_by_data": true,
+            "minecraft:durability": {
+                "max_durability": 128
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:resin_clump"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    },
+                    {
+                        "items": [
+                            "minecraft:resin_brick"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    }
+                ]
+            },
+            "minecraft:damage": 7,
+            "minecraft:enchantable": {
+                "slot": "sword",
+                "value": 17
+            },
+            "minecraft:digger": {
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 60
+                    },
+                    {
+                        "block": "minecraft:web",
+                        "speed": 15
+                    },
+                    {
+                        "block": {
+                            "tags": "true"
+                        },
+                        "speed": 1.5
+                    }
+                ],
+                "use_efficiency": true
+            }
+        }
+    }
+}

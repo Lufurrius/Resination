@@ -1,0 +1,9 @@
+
+    # Configurable variables
+
+    prefix=luth_resination:
+    resource_pack_name=luth_resination
+    padding=8
+    num_mip_levels=4
+    append_data=true
+    # Currently doesn't retain comments

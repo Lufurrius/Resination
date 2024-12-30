@@ -1,8 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "resination_bp",
+			"name": "Behaviors"
+		},
+		{
+			"path": "resination_rp",
+			"name": "Resources"
+		},
+		{
+			"path": ".",
+			"name": "Configuration"
 		}
-	],
-	"settings": {}
+	]
 }

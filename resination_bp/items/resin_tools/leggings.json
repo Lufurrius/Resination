@@ -1,0 +1,60 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "luth_resination:resin_leggings",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.leggings"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luth_resination:resin_leggings_gray",
+                    "dyed": "luth_resination:resin_leggings_gray"
+                }
+            },
+            "minecraft:dyeable": {
+                "default_color": "#ff6300"
+            },
+            "minecraft:wearable": {
+                "protection": 6,
+                "slot": "slot.armor.legs"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_armor",
+                    "minecraft:trimmable_armors",
+                    "minecraft:diamond_tier",
+                    "luth_resination:resinous"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:stacked_by_data": true,
+            "minecraft:durability": {
+                "max_durability": 225
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:resin_clump"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    },
+                    {
+                        "items": [
+                            "minecraft:resin_brick"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "slot": "armor_legs",
+                "value": 17
+            }
+        }
+    }
+}

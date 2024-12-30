@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "luth_resination:resin_chestplate.player",
+            "item": {
+                "luth_resination:resin_chestplate": "query.owner_identifier == 'minecraft:player'"
+            },
+            "materials": {
+                "default": "armor",
+                "enchanted": "armor_enchanted",
+                "armor": "armor_leather",
+                "armor_enchanted": "armor_leather_enchanted"
+            },
+            "textures": {
+                "default": "textures/resination/invisible",
+                "armor": "textures/resination/models/armor/resin_1",
+                "dyed": "textures/resination/models/armor/resin_1_gray",
+                "enchanted": "textures/misc/enchanted_actor_glint"
+            },
+            "geometry": {
+                "default": "geometry.player.armor.chestplate"
+            },
+            "scripts": {
+                "parent_setup": "variable.chest_layer_visible = 0.0;",
+                "animate": [
+                    "offset"
+                ],
+                "pre_animation": [
+                    "variable.undyed = query.armor_color_slot(1, 0) == 1.0 && query.armor_color_slot(1, 2) == 0.0;"
+                ]
+            },
+            "animations": {
+                "offset": "animation.armor.chestplate.offset"
+            },
+            "render_controllers": [
+                "controller.render.armor",
+                "controller.render.luth.dyeable_armor"
+            ]
+        }
+    }
+}

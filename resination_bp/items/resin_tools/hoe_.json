@@ -1,0 +1,153 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "luth_resination:resin_hoe",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.hoe"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luth_resination:resin_hoe",
+                    "dyed": "luth_resination:resin_hoe_gray"
+                }
+            },
+            "minecraft:dyeable": {},
+            "minecraft:hand_equipped": true,
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:transformable_items",
+                    "minecraft:is_tool",
+                    "minecraft:digger",
+                    "minecraft:is_hoe",
+                    "minecraft:diamond_tier",
+                    "luth_resination:resinous"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:stacked_by_data": true,
+            "minecraft:durability": {
+                "max_durability": 128
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:resin_clump"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    },
+                    {
+                        "items": [
+                            "minecraft:resin_brick"
+                        ],
+                        "repair_amount": "q.max_durability * 0.25"
+                    }
+                ]
+            },
+            "minecraft:damage": 5,
+            "minecraft:enchantable": {
+                "slot": "hoe",
+                "value": 17
+            },
+            "minecraft:digger": {
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('hoe_diggable')"
+                        },
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:azalea_leaves_flowered",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:azalea_leaves",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:calibrated_sculk_sensor",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:cherry_leaves",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:dried_kelp_block",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:hay_block",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:leaves",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:leaves2",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:mangrove_leaves",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:moss_block",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:moss_carpet",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:nether_wart_block",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:sculk_catalyst",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:sculk_sensor",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:sculk_shrieker",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:sculk_vein",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:sculk",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:shroomlight",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:sponge",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:target",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:warped_wart_block",
+                        "speed": 8
+                    }
+                ],
+                "use_efficiency": true
+            }
+        }
+    }
+}

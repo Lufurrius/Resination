@@ -1,0 +1,180 @@
+{
+    "resource_pack_name": "luth_resination",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "luth_resination:resin_axe": {
+            "textures": "textures/resination/items/resin/axe"
+        },
+        "luth_resination:resin_axe_chipped": {
+            "textures": "textures/resination/items/resin/axe_chipped"
+        },
+        "luth_resination:resin_axe_cracked": {
+            "textures": "textures/resination/items/resin/axe_cracked"
+        },
+        "luth_resination:resin_boots": {
+            "textures": "textures/resination/items/resin/boots"
+        },
+        "luth_resination:resin_boots_chipped": {
+            "textures": "textures/resination/items/resin/boots_chipped"
+        },
+        "luth_resination:resin_boots_cracked": {
+            "textures": "textures/resination/items/resin/boots_cracked"
+        },
+        "luth_resination:resin_candy": {
+            "textures": "textures/resination/items/resin/candy"
+        },
+        "luth_resination:resin_chestplate": {
+            "textures": "textures/resination/items/resin/chestplate"
+        },
+        "luth_resination:resin_chestplate_chipped": {
+            "textures": "textures/resination/items/resin/chestplate_chipped"
+        },
+        "luth_resination:resin_chestplate_cracked": {
+            "textures": "textures/resination/items/resin/chestplate_cracked"
+        },
+        "luth_resination:resin_fork": {
+            "textures": "textures/resination/items/resin/fork"
+        },
+        "luth_resination:resin_helmet": {
+            "textures": "textures/resination/items/resin/helmet"
+        },
+        "luth_resination:resin_helmet_chipped": {
+            "textures": "textures/resination/items/resin/helmet_chipped"
+        },
+        "luth_resination:resin_helmet_cracked": {
+            "textures": "textures/resination/items/resin/helmet_cracked"
+        },
+        "luth_resination:resin_hoe": {
+            "textures": "textures/resination/items/resin/hoe"
+        },
+        "luth_resination:resin_hoe_chipped": {
+            "textures": "textures/resination/items/resin/hoe_chipped"
+        },
+        "luth_resination:resin_hoe_cracked": {
+            "textures": "textures/resination/items/resin/hoe_cracked"
+        },
+        "luth_resination:resin_leggings": {
+            "textures": "textures/resination/items/resin/leggings"
+        },
+        "luth_resination:resin_leggings_chipped": {
+            "textures": "textures/resination/items/resin/leggings_chipped"
+        },
+        "luth_resination:resin_leggings_cracked": {
+            "textures": "textures/resination/items/resin/leggings_cracked"
+        },
+        "luth_resination:resin_pickaxe": {
+            "textures": "textures/resination/items/resin/pickaxe"
+        },
+        "luth_resination:resin_pickaxe_chipped": {
+            "textures": "textures/resination/items/resin/pickaxe_chipped"
+        },
+        "luth_resination:resin_pickaxe_cracked": {
+            "textures": "textures/resination/items/resin/pickaxe_cracked"
+        },
+        "luth_resination:resin_scythe": {
+            "textures": "textures/resination/items/resin/scythe"
+        },
+        "luth_resination:resin_shovel": {
+            "textures": "textures/resination/items/resin/shovel"
+        },
+        "luth_resination:resin_shovel_chipped": {
+            "textures": "textures/resination/items/resin/shovel_chipped"
+        },
+        "luth_resination:resin_shovel_cracked": {
+            "textures": "textures/resination/items/resin/shovel_cracked"
+        },
+        "luth_resination:resin_sword": {
+            "textures": "textures/resination/items/resin/sword"
+        },
+        "luth_resination:resin_sword_chipped": {
+            "textures": "textures/resination/items/resin/sword_chipped"
+        },
+        "luth_resination:resin_sword_cracked": {
+            "textures": "textures/resination/items/resin/sword_cracked"
+        },
+        "luth_resination:resin_axe_chipped_gray": {
+            "textures": "textures/resination/items/resin/axe_chipped_gray"
+        },
+        "luth_resination:resin_axe_cracked_gray": {
+            "textures": "textures/resination/items/resin/axe_cracked_gray"
+        },
+        "luth_resination:resin_axe_gray": {
+            "textures": "textures/resination/items/resin/axe_gray"
+        },
+        "luth_resination:resin_boots_chipped_gray": {
+            "textures": "textures/resination/items/resin/boots_chipped_gray"
+        },
+        "luth_resination:resin_boots_cracked_gray": {
+            "textures": "textures/resination/items/resin/boots_cracked_gray"
+        },
+        "luth_resination:resin_boots_gray": {
+            "textures": "textures/resination/items/resin/boots_gray"
+        },
+        "luth_resination:resin_candy_gray": {
+            "textures": "textures/resination/items/resin/candy_gray"
+        },
+        "luth_resination:resin_chestplate_chipped_gray": {
+            "textures": "textures/resination/items/resin/chestplate_chipped_gray"
+        },
+        "luth_resination:resin_chestplate_cracked_gray": {
+            "textures": "textures/resination/items/resin/chestplate_cracked_gray"
+        },
+        "luth_resination:resin_chestplate_gray": {
+            "textures": "textures/resination/items/resin/chestplate_gray"
+        },
+        "luth_resination:resin_helmet_chipped_gray": {
+            "textures": "textures/resination/items/resin/helmet_chipped_gray"
+        },
+        "luth_resination:resin_helmet_cracked_gray": {
+            "textures": "textures/resination/items/resin/helmet_cracked_gray"
+        },
+        "luth_resination:resin_helmet_gray": {
+            "textures": "textures/resination/items/resin/helmet_gray"
+        },
+        "luth_resination:resin_hoe_chipped_gray": {
+            "textures": "textures/resination/items/resin/hoe_chipped_gray"
+        },
+        "luth_resination:resin_hoe_cracked_gray": {
+            "textures": "textures/resination/items/resin/hoe_cracked_gray"
+        },
+        "luth_resination:resin_hoe_gray": {
+            "textures": "textures/resination/items/resin/hoe_gray"
+        },
+        "luth_resination:resin_leggings_chipped_gray": {
+            "textures": "textures/resination/items/resin/leggings_chipped_gray"
+        },
+        "luth_resination:resin_leggings_cracked_gray": {
+            "textures": "textures/resination/items/resin/leggings_cracked_gray"
+        },
+        "luth_resination:resin_leggings_gray": {
+            "textures": "textures/resination/items/resin/leggings_gray"
+        },
+        "luth_resination:resin_pickaxe_chipped_gray": {
+            "textures": "textures/resination/items/resin/pickaxe_chipped_gray"
+        },
+        "luth_resination:resin_pickaxe_cracked_gray": {
+            "textures": "textures/resination/items/resin/pickaxe_cracked_gray"
+        },
+        "luth_resination:resin_pickaxe_gray": {
+            "textures": "textures/resination/items/resin/pickaxe_gray"
+        },
+        "luth_resination:resin_shovel_chipped_gray": {
+            "textures": "textures/resination/items/resin/shovel_chipped_gray"
+        },
+        "luth_resination:resin_shovel_cracked_gray": {
+            "textures": "textures/resination/items/resin/shovel_cracked_gray"
+        },
+        "luth_resination:resin_shovel_gray": {
+            "textures": "textures/resination/items/resin/shovel_gray"
+        },
+        "luth_resination:resin_sword_chipped_gray": {
+            "textures": "textures/resination/items/resin/sword_chipped_gray"
+        },
+        "luth_resination:resin_sword_cracked_gray": {
+            "textures": "textures/resination/items/resin/sword_cracked_gray"
+        },
+        "luth_resination:resin_sword_gray": {
+            "textures": "textures/resination/items/resin/sword_gray"
+        }
+    }
+}
