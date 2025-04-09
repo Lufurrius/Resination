@@ -23,6 +23,9 @@
         "luth_resination:resin_candy": {
             "textures": "textures/resination/items/resin/candy"
         },
+        "luth_resination:resin_candy_gray": {
+            "textures": "textures/resination/items/resin/candy_gray"
+        },
         "luth_resination:resin_chestplate": {
             "textures": "textures/resination/items/resin/chestplate"
         },
@@ -34,6 +37,15 @@
         },
         "luth_resination:resin_fork": {
             "textures": "textures/resination/items/resin/fork"
+        },
+        "luth_resination:resin_sap": {
+            "textures": "textures/resination/items/resin/sap"
+        },
+        "luth_resination:resin_syrup": {
+            "textures": "textures/resination/items/resin/syrup"
+        },
+        "luth_resination:resin_flash": {
+            "textures": "textures/resination/items/resin/flash"
         },
         "luth_resination:resin_helmet": {
             "textures": "textures/resination/items/resin/helmet"
@@ -109,9 +121,6 @@
         },
         "luth_resination:resin_boots_gray": {
             "textures": "textures/resination/items/resin/boots_gray"
-        },
-        "luth_resination:resin_candy_gray": {
-            "textures": "textures/resination/items/resin/candy_gray"
         },
         "luth_resination:resin_chestplate_chipped_gray": {
             "textures": "textures/resination/items/resin/chestplate_chipped_gray"

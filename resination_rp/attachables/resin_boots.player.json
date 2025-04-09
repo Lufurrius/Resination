@@ -16,6 +16,11 @@
                 "default": "textures/resination/invisible",
                 "armor": "textures/resination/models/armor/resin_1",
                 "dyed": "textures/resination/models/armor/resin_1_gray",
+                "armor_chipped": "textures/resination/models/armor/resin_chipped_1",
+                "dyed_chipped": "textures/resination/models/armor/resin_chipped_1_gray",
+                "armor_cracked": "textures/resination/models/armor/resin_cracked_1",
+                "dyed_cracked": "textures/resination/models/armor/resin_cracked_1_gray",
+                "resin_palette": "textures/resination/trims/color_palettes/resin_darker",
                 "enchanted": "textures/misc/enchanted_actor_glint"
             },
             "geometry": {
@@ -27,7 +32,8 @@
                     "offset"
                 ],
                 "pre_animation": [
-                    "variable.undyed = query.armor_color_slot(3, 0) == 1.0 && query.armor_color_slot(3, 2) == 0.0;"
+                    "variable.undyed = query.armor_color_slot(3, 0) == 1.0 && math.floor(query.armor_color_slot(3, 1) * 1000) / 1000 == 0.388 && query.armor_color_slot(3, 2) == 0.0;",
+                    "variable.durability = query.health / query.max_health;"
                 ]
             },
             "animations": {

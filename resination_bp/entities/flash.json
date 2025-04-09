@@ -1,0 +1,61 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "luth_resination:flash_bottle",
+            "is_spawnable": false,
+            "is_summonable": false,
+            "is_experimental": false,
+            "runtime_identifier": "minecraft:xp_bottle"
+        },
+        "component_groups": {
+            "despawn": {
+                "minecraft:instant_despawn": {
+                    "remove_child_entities": false
+                }
+            }
+        },
+        "components": {
+            "minecraft:collision_box": {
+                "width": 0.1,
+                "height": 0.1
+            },
+            "minecraft:projectile": {
+                "on_hit": {
+                    "definition_event": {
+                        "event_trigger": {
+                            "event": "luth_resination:flash",
+                            "target": "self"
+                        },
+                        "affect_projectile": true
+                    },
+                    "particle_on_hit": {
+                        "num_particles": 16,
+                        "on_entity_hit": true,
+                        "on_other_hit": true
+                    }
+                },
+                "power": 1.2,
+                "gravity": 0.075,
+                "angle_offset": -20.0
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            }
+        },
+        "events": {
+            "luth_resination:flash": {
+                "queue_command": {
+                    "command": "scriptevent luth_resination:flash"
+                },
+                "add": {
+                    "component_groups": [
+                        "despawn"
+                    ]
+                }
+            }
+        }
+    }
+}

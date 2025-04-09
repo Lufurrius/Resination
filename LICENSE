@@ -1,8 +1,11 @@
 The following directories, their subdirectories, and any files inside said directories or subdirectories along with other specified files are subject to
 the license below.
 
-textures/
-icon.png
+resination_rp/textures/
+resination_rp/sounds/
+resination_rp/icon.png
+resination_bp/icon.png
+icons/
 
 All Rights Reserved
 

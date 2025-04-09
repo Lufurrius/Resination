@@ -9,7 +9,7 @@
                 }
             ],
             "textures": [
-                "variable.undyed ? Texture.armor : Texture.dyed",
+                "variable.durability >= 0.9 ? variable.undyed ? Texture.armor : Texture.dyed : variable.durability >= 0.5 ? variable.undyed ? Texture.armor_chipped : Texture.dyed_chipped : variable.undyed ? Texture.armor_cracked : Texture.dyed_cracked",
                 "Texture.enchanted"
             ]
         }

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "luth_resination:resin_fork",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "luth_resination:resin_fork"
+                }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "luth_resination:resinous"
+                ]
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:max_stack_size": 1
+        }
+    }
+}
